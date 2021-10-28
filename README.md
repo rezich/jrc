@@ -1,8 +1,10 @@
 jrc
 ===
 
-this is an experiment to make a thing that sorta acts like Rails' command-line
-program, basically using the compiler to do scripting, sorta.
+this is an experiment to make a thing that sorta acts like Rails' or Django's
+command-line utilities. it's cool because it means your metaprogram is a
+command-line utility you can just run wherever, and you can add all kinds of
+contextual functionality to it.
 
 setup
 -----

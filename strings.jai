@@ -6,6 +6,7 @@ The available commands are:
   help         Show help for a command
   prompt       Start an interactive prompt
   build        Build the project in the current directory
+  run          Run the built binary for the project in the current directory
 
 For more information on a specific command, type `jrc help command-name`.
 DONE
@@ -24,6 +25,10 @@ DONE
 
 HELP_BUILD :: #string DONE
 Usage: jrc build
+DONE
+
+HELP_RUN :: #string DONE
+Usage: jrc run
 DONE
 
 ERROR_ZERO_ARGUMENTS :: #string DONE

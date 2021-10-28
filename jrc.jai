@@ -40,6 +40,8 @@ execute :: (cmd: string, args: [] string) {
                             print(HELP_PROMPT);
                         case "build";
                             print(HELP_BUILD);
+                        case "run";
+                            print(HELP_RUN);
                         case;
                             print("Help: no help information for `%`.\n", cmd);
                     }
